@@ -1,5 +1,8 @@
 ﻿Public Class Form1
     Dim formato As Boolean = True
+    Dim boton_Start As Boolean = False
+    Dim tiempo_crono As Integer = 0
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Start()
         Timer2.Start()
@@ -41,10 +44,10 @@
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
-        If Panel1.Visible = False Then
-            Panel1.Visible = True
-        ElseIf Panel1.Visible = True Then
-            Panel1.Visible = False
+        If Panel2.Visible = False Then
+            Panel2.Visible = True
+        ElseIf Panel2.Visible = True Then
+            Panel2.Visible = False
 
         End If
     End Sub
@@ -98,6 +101,43 @@
             Button1.Text = "24"
             formato = True
 
+        End If
+    End Sub
+
+
+    Private startTime As DateTime
+    Private elapsed As TimeSpan = TimeSpan.Zero
+
+    Private Sub Start_Click(sender As Object, e As EventArgs) Handles Start.Click
+        If boton_Start = False Then
+            Timer3.Enabled = True
+            boton_Start = True
+            Start.Text = "Stop"
+            startTime = DateTime.Now
+        ElseIf boton_Start = True Then
+            Timer3.Enabled = False
+            boton_Start = False
+            Start.Text = "Start"
+            elapsed += DateTime.Now - startTime
+        End If
+    End Sub
+
+    Private Sub Reset_Click(sender As Object, e As EventArgs) Handles Reset.Click
+        tiempo_crono = 0
+        Timer3.Enabled = False
+        Tiempo.Text = "0"
+    End Sub
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+        tiempo_crono = tiempo_crono + 1
+        Tiempo.Text = tiempo_crono.ToString()
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        If Panel1.Visible = False Then
+            Panel1.Visible = True
+        ElseIf Panel1.Visible = True Then
+            Panel1.Visible = False
         End If
     End Sub
 End Class

@@ -121,10 +121,16 @@
   <data name="OIP (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="settings-icon-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-icon-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cronometro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cronometro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="settings-icon-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-icon-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings-icon-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings-icon-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cronometro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cronometro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

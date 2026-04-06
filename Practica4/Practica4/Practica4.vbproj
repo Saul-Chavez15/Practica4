@@ -128,5 +128,11 @@
   <ItemGroup>
     <None Include="Resources\settings-icon-vector1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cronometro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cronometro1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
