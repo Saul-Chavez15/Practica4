@@ -58,6 +58,7 @@
             Horas.ForeColor = Color.White
             Minutos.ForeColor = Color.White
             Label1.ForeColor = Color.White
+            Label3.ForeColor = Color.White
             Fecha.ForeColor = Color.White
             Dias.ForeColor = Color.White
             Segundos.ForeColor = Color.White
@@ -65,6 +66,7 @@
             Horas.ForeColor = Color.Red
             Minutos.ForeColor = Color.Red
             Label1.ForeColor = Color.Red
+            Label3.ForeColor = Color.Red
             Fecha.ForeColor = Color.Red
             Dias.ForeColor = Color.Red
             Segundos.ForeColor = Color.Red
@@ -72,6 +74,7 @@
             Horas.ForeColor = Color.Blue
             Minutos.ForeColor = Color.Blue
             Label1.ForeColor = Color.Blue
+            Label3.ForeColor = Color.Blue
             Fecha.ForeColor = Color.Blue
             Dias.ForeColor = Color.Blue
             Segundos.ForeColor = Color.Blue
@@ -79,6 +82,7 @@
             Horas.ForeColor = Color.Yellow
             Minutos.ForeColor = Color.Yellow
             Label1.ForeColor = Color.Yellow
+            Label3.ForeColor = Color.Yellow
             Fecha.ForeColor = Color.Yellow
             Dias.ForeColor = Color.Yellow
             Segundos.ForeColor = Color.Yellow
@@ -86,6 +90,7 @@
             Horas.ForeColor = Color.Green
             Minutos.ForeColor = Color.Green
             Label1.ForeColor = Color.Green
+            Label3.ForeColor = Color.Green
             Fecha.ForeColor = Color.Green
             Dias.ForeColor = Color.Green
             Segundos.ForeColor = Color.Green
@@ -104,6 +109,7 @@
         End If
     End Sub
 
+    'Codigo para el cronometro
 
     Private startTime As DateTime
     Private elapsed As TimeSpan = TimeSpan.Zero
@@ -125,12 +131,14 @@
     Private Sub Reset_Click(sender As Object, e As EventArgs) Handles Reset.Click
         tiempo_crono = 0
         Timer3.Enabled = False
-        Tiempo.Text = "0"
+        Tiempo.Text = "00:00:00.00"
+        boton_Start = False
+        Start.Text = "Start"
     End Sub
 
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
-        tiempo_crono = tiempo_crono + 1
-        Tiempo.Text = tiempo_crono.ToString()
+        Dim current = elapsed + (DateTime.Now - startTime)
+        Tiempo.Text = current.ToString("hh\:mm\:ss\.ff")
     End Sub
 
     Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
@@ -138,6 +146,14 @@
             Panel1.Visible = True
         ElseIf Panel1.Visible = True Then
             Panel1.Visible = False
+        End If
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        If Panel3.Visible = True Then
+            Panel3.Visible = False
+        ElseIf Panel3.Visible = False Then
+            Panel3.Visible = True
         End If
     End Sub
 End Class

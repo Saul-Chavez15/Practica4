@@ -42,11 +42,14 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -121,7 +124,7 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.Start)
         Me.Panel1.Controls.Add(Me.Tiempo)
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Location = New System.Drawing.Point(203, 190)
+        Me.Panel1.Location = New System.Drawing.Point(212, 189)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(192, 152)
         Me.Panel1.TabIndex = 7
@@ -134,7 +137,7 @@ Partial Class Form1
         Me.Reset.Name = "Reset"
         Me.Reset.Size = New System.Drawing.Size(75, 23)
         Me.Reset.TabIndex = 3
-        Me.Reset.Text = "Stop"
+        Me.Reset.Text = "Reset"
         Me.Reset.UseVisualStyleBackColor = True
         '
         'Start
@@ -225,7 +228,7 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.ComboBox2)
         Me.Panel2.Controls.Add(Me.Button1)
         Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Location = New System.Drawing.Point(203, 190)
+        Me.Panel2.Location = New System.Drawing.Point(320, 190)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(189, 149)
         Me.Panel2.TabIndex = 3
@@ -233,12 +236,32 @@ Partial Class Form1
         '
         'Timer3
         '
+        Me.Timer3.Interval = 1
+        '
+        'Panel3
+        '
+        Me.Panel3.Location = New System.Drawing.Point(92, 34)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(200, 162)
+        Me.Panel3.TabIndex = 10
+        Me.Panel3.Visible = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.ErrorImage = Nothing
+        Me.PictureBox4.Image = Global.Practica4.My.Resources.Resources.hourglass_icon_design_template_free_vector
+        Me.PictureBox4.Location = New System.Drawing.Point(219, 273)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(39, 43)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 11
+        Me.PictureBox4.TabStop = False
         '
         'PictureBox3
         '
         Me.PictureBox3.ErrorImage = Nothing
         Me.PictureBox3.Image = Global.Practica4.My.Resources.Resources.Cronometro1
-        Me.PictureBox3.Location = New System.Drawing.Point(257, 337)
+        Me.PictureBox3.Location = New System.Drawing.Point(276, 277)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(34, 35)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -249,7 +272,7 @@ Partial Class Form1
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Black
         Me.PictureBox2.Image = Global.Practica4.My.Resources.Resources.settings_icon_vector1
-        Me.PictureBox2.Location = New System.Drawing.Point(297, 337)
+        Me.PictureBox2.Location = New System.Drawing.Point(336, 277)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(41, 35)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -272,11 +295,13 @@ Partial Class Form1
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(535, 451)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.PictureBox4)
         Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Segundos)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Dias)
         Me.Controls.Add(Me.Horas)
         Me.Controls.Add(Me.Label1)
@@ -290,6 +315,7 @@ Partial Class Form1
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -320,4 +346,6 @@ Partial Class Form1
     Friend WithEvents Tiempo As Label
     Friend WithEvents Timer3 As Timer
     Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents PictureBox4 As PictureBox
 End Class
