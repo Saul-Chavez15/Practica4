@@ -149,11 +149,65 @@
         End If
     End Sub
 
+    Private tiempoRestante As TimeSpan = TimeSpan.Zero
+    Private temporizadorActivo As Boolean = False
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
         If Panel3.Visible = True Then
             Panel3.Visible = False
         ElseIf Panel3.Visible = False Then
             Panel3.Visible = True
+        End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        tiempoRestante = tiempoRestante.Add(TimeSpan.FromMinutes(1))
+        Label6.Text = tiempoRestante.ToString("mm\:ss")
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        tiempoRestante = tiempoRestante.Add(TimeSpan.FromMinutes(5))
+        Label6.Text = tiempoRestante.ToString("mm\:ss")
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If tiempoRestante = TimeSpan.Zero Then
+            MessageBox.Show("Agrega tiempo primero.", "Aviso",
+                MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Exit Sub
+        End If
+        If temporizadorActivo = False Then
+            Timer4.Enabled = True
+            temporizadorActivo = True
+            Button3.Text = "Stop"
+        Else
+            Timer4.Enabled = False
+            temporizadorActivo = False
+            Button3.Text = "Start"
+        End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Timer4.Enabled = False
+        tiempoRestante = TimeSpan.Zero
+        temporizadorActivo = False
+        Label6.Text = "00:00"
+        Button3.Text = "Start"
+
+    End Sub
+
+    Private Sub Timer4_Tick(sender As Object, e As EventArgs) Handles Timer4.Tick
+
+        If tiempoRestante.TotalMilliseconds > 0 Then
+            tiempoRestante = tiempoRestante.Substract(TimeSpan.FromMilliseconds(Timer4.Interval))
+            Label6.Text = tiempoRestante.ToString("mm\:ss")
+        Else
+            Timer4.Enabled = False
+            temporizadorActivo = False
+            tiempoRestante = TimeSpan.Zero
+            Label6.Text = "00:00"
+            Button3.Text = "Start"
+            MessageBox.Show("⏰¡Tiempo terminado!", "Temporizador",
+                         MessageBoxButtons.OK, MessageBoxIcon.Information)
         End If
     End Sub
 End Class
