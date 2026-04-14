@@ -118,13 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Cronometro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cronometro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OIP (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OIP (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings-icon-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-icon-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cronometro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cronometro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="settings-icon-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings-icon-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings-icon-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings-icon-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hourglass-icon-design-template-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hourglass-icon-design-template-free-vector.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

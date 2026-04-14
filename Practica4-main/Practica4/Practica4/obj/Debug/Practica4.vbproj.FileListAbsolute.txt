@@ -46,3 +46,51 @@ C:\Saúl 24815\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.Cor
 C:\Saúl 24815\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.exe
 C:\Saúl 24815\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.xml
 C:\Saúl 24815\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.pdb
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe.config
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.pdb
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.xml
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbprojAssemblyReference.cache
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Resources.resources
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.GenerateResource.cache
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.CoreCompileInputs.cache
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.exe
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.xml
+C:\Saúl 24815\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.pdb
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.pdb
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.xml
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbprojAssemblyReference.cache
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Resources.resources
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.GenerateResource.cache
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.CoreCompileInputs.cache
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.exe
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.xml
+C:\Users\win512\Downloads\Practica4-main (5)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.pdb
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.pdb
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.xml
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbprojAssemblyReference.cache
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Resources.resources
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.GenerateResource.cache
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.CoreCompileInputs.cache
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.exe
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.xml
+C:\Users\win512\Downloads\Practica4-main (6)\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.pdb
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe.config
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.exe
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.pdb
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\bin\Debug\Practica4.xml
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.AssemblyReference.cache
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Form1.resources
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.Resources.resources
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.GenerateResource.cache
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.vbproj.CoreCompileInputs.cache
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.exe
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.xml
+C:\Users\isaac\Downloads\Practica4-main\Practica4-main\Practica4\Practica4\obj\Debug\Practica4.pdb
